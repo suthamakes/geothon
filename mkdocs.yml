@@ -3,5 +3,8 @@ site_name: Geothon
 theme:
   name: material
 
+  palette:
+    - primary: green
+
   nav:
     - Home: 'index.md'
