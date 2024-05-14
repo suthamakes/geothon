@@ -1,5 +1,10 @@
 site_name: Geothon
 
+#header
+repo_name: "suthamakes/geothon"
+repo_url: "https://github.com/suthamakes/geothon"
+site_url: "https://suthamakes.github.io/geothon/"
+
 theme:
   name: material
 
@@ -7,4 +12,12 @@ theme:
     - primary: green
 
   nav:
-    - Home: 'index.md'
+    - Home: index.md
+    - ...
+    - How To: ''
+  
+  plugins:
+    - awesome-pages
+    - search
+    - neoteroi.mkdocsoad: # openapi docs
+        use_pymdownx: true
